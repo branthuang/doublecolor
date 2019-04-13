@@ -1,0 +1,38 @@
+/** JSPLUMB ARTEFACTS **/
+._jsPlumb_connector {
+    z-index:1;
+}
+
+/** COMMON ELEMENT PROPERTIES **/
+
+/** SHAPES **/
+[data-shape=Circle] {
+    z-index:2;
+    opacity:0.7;
+    filter:alpha(opacity=70);
+    position:absolute;
+    
+    text-align:center;
+    color:#333;
+    padding:0px;
+}
+.w[data-shape=Circle]{
+    border-radius:25px;
+}
+.w[data-shape=Circle]:hover,.w[data-shape=Circle]:focus{
+
+}
+.w[data-shape=Circle].selectred{border:1px solid red!important;}
+.w[data-shape=Circle] .ep{
+    line-height:50px;
+    width:15px;
+    text-indent:0px;
+}
+[data-shape=Circle] {
+    width:50px;
+    height:50px;
+    line-height:50px;
+    background:#ddd;
+    text-indent:10px;
+    /*background-image:url(circle.png);*/
+}

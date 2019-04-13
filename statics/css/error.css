@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CSS重置 */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td ,span, object, iframe{ padding: 0; margin: 0; }
+body{ font-size:12px; color:#000;}
+table { border-collapse: collapse; border-spacing: 0; border:0; }
+fieldset, img { border: 0; }
+ol, ul { list-style: none; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; font-size: 100%; }
+html,body{ height:100%; font-family:"微软雅黑"; font-size:12px;}
+.clearfix:after{visibility: hidden;display: block;content:"";clear: both;font-size: 0;height: 0;}
+.clearfix{zoom:1;}
+.clear{ clear:both;}
+.hide{ display:none!important;}
+a{text-decoration:none;}
+
+/************************* body *************************/
+body{ background:#e4ebef;}
+
+/************************* 错误页 *************************/
+.e_wrap{ width:1000px; height:540px; margin:0 auto; background:url(../images/error/e_bg.png) top center no-repeat;}
+.e_contain{ float:right; width:410px; margin-top:280px; margin-right:36px; _margin-right:18px;}
+.e_becuse{ font-family:"微软雅黑"; font-size:24px; line-height:38px; color:#999999;}
+.e_red{font-size:24px; color:#F7994D;}
+.e_detail{ width:100%; font-size:14px; font-family:"微软雅黑"; line-height:22px; color:#999; margin-top:10px;}
+.e_btnWrap{ width:100%; height:24px; margin-top:30px;}
+.e_btn01{ display:block; float:left; height:24px; font-family:"微软雅黑"; line-height:24px; font-size:16px; color:#2c7fd8; padding-left:30px; background:url(../images/error/e_icon1.png) no-repeat;}
+.e_btn02{ display:block; float:left; height:24px; font-family:"微软雅黑"; line-height:24px; font-size:16px; color:#2c7fd8; padding-left:30px; background:url(../images/error/e_icon2.png) no-repeat; margin-left:40px;}
+.e_btn01:hover,.e_btn02:hover{ text-decoration:underline;}

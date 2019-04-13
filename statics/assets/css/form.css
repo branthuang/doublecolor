@@ -1,0 +1,273 @@
+/*********************** 表单页  ***********************/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, span, object, iframe {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+}
+.common-form {
+    background: #e7eaeb;
+    padding: 25px;
+}
+
+.leg_style {
+    font-weight: bold;
+    color: #4d93cd;
+    border-left: solid #4d93cd 5px;
+    padding-left: 14px;
+}
+
+.table_form {
+    background: #f1f1f0;
+    margin: 20px 0;
+}
+
+.table_form td {
+    border: solid 1px #c6cfd8;
+    padding: 8px;
+    color: #333;
+}
+
+.table_form .table_tTd {
+    text-align: right;
+    color: #666;
+    background: #e6e8e9;
+}
+
+.table_form .tad_txtCtr {
+    text-align: center;
+}
+
+.table_form .tad_txtLeft {
+    text-align: left;
+}
+
+.table_form .table_tdInner {
+    padding: 0;
+    border-right: 0;
+}
+
+.table_inner {
+    margin: 0;
+    width: 100%;
+}
+
+.table_form .table_inner td {
+    border: 0;
+    border-right: solid 1px #c6cfd8;
+}
+
+.table_form .table_inner .table_inner_tr {
+    border-bottom: solid 1px #c6cfd8;
+}
+
+.input-text {
+    background: #fafafa;
+    border: solid 1px #dcdcdc;
+    line-height: 18px;
+    padding: 5px;
+}
+
+.select_text {
+    height: 28px;
+    line-height: 28px;
+    background: #fafafa;
+    border: solid 1px #bcbcbc;
+}
+
+/*.onShow{ display:inline-block; color:#999; padding-left:20px;}*/
+/*.onFocus{ display:inline-block; color: #000000; padding-left:20px;}*/
+/*.onCorrect{ display:inline-block; color:#4d93cd; padding-left:20px;}*/
+/*.onError{ display:inline-block; color:red; padding-left:20px;}*/
+
+/*表单验证*/
+.onShow, .onFocus, .onError, .onCorrect, .onLoad, .onTime {
+    display: inline-block;
+    display: -moz-inline-stack;
+    zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+    background: url(../images/msg_bg.png) no-repeat;
+    color: #444;
+    line-height: 18px;
+    padding: 2px 10px 2px 23px;
+    margin-left: 10px;
+    _margin-left: 5px
+}
+
+.onShow {
+    background-position: 3px -147px;
+    border-color: #40B3FF;
+    color: #959595
+}
+
+.onFocus {
+    background-position: 3px -147px;
+    border-color: #40B3FF;
+}
+
+.onError {
+    background-position: 3px -47px;
+    border-color: #40B3FF;
+    color: red
+}
+
+.onCorrect {
+    background-position: 3px -247px;
+    border-color: #40B3FF;
+}
+
+.onLamp {
+    background-position: 3px -200px
+}
+
+.onTime {
+    background-position: 3px -1356px
+}
+
+.pading-30 {
+    padding-right: 30px;
+}
+
+.ways {
+    padding: 0 5px;
+}
+
+.button {
+    background-color: #adadad;
+    color: #fff;
+    cursor: pointer;
+    padding: 3px 19px 5px 19px;
+    *padding: 1px 0px;
++ padding : 1 px 0 px;
+    border-radius: 3px;
+    display: inline-block;
+    border: 0;
+    margin: 0;
+}
+
+.button:hover {
+    /*background:rgba(0,0,0,0.15);*/
+    background-image: url(../images/btn-hover.png);
+}
+
+.file_button {
+    background: #5aa1dd;
+    color: #fff;
+    border: 1px solid #4e94cf;
+    margin-left: 5px;
+}
+
+.submit_btn {
+    background: #87c389;
+    color: #fff;
+    border: 1px solid #c0cad5;
+    padding: 12px 100px;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+}
+
+.text_readonly {
+    background: none;
+    border: none;
+    color: #333;
+}
+
+.download {
+    border: 0;
+    background: url(../../images/download.png) left center no-repeat;
+    padding-left: 20px;
+    color: #418adb;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.delete-b {
+    border: 0;
+    background: url(../images/delete-blue.png) left center no-repeat;
+    padding-left: 20px;
+    color: #418adb;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.pro-tabPew .tabbable {
+    width: 100%;
+}
+
+.contentList {
+    padding: 25px;
+}
+
+.textarea-text {
+    background: #fafafa;
+    border: solid 1px #dcdcdc;
+    line-height: 20px;
+    padding: 5px;
+}
+
+.house_tape {
+    float: left;
+    height: 32px;
+    background: #f0f3f4;
+    border: solid 1px #dcdcdc;
+    margin-left: 15px;
+}
+
+.house_tape span {
+    display: inline-block;
+    padding: 0 14px;
+}
+
+.house_tape .house_tapSpan {
+    height: 32px;
+    padding: 0 20px 0 14px;
+    line-height: 32px;
+    color: #4093ce;
+    background: url(../images/house_tape.jpg) right no-repeat #d4e4ed;
+}
+
+.subnav {
+    padding: 30px 25px 0 25px;
+}
+
+.blue-btn {
+    background: #739fdc;
+    color: #fff;
+    border: 1px solid #618cc7;
+}
+
+.miBlue-btn {
+    background: #8dbcda;
+    color: #fff;
+    border: 1px solid #79abcb;
+}
+
+.top_btn {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.table_form a {
+    color: #333;
+}
+
+.table_form a:hover {
+    color: #333;
+}
+
+form a {
+    color: #333;
+}
+
+form a:hover {
+    color: #333;
+
+}

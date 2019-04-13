@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteRule ^([^/]+)/$ index.php [L]
+RewriteRule ^([^/]+)/index.php index.php [L,QSA]
+RewriteRule ^([^/]+)/api.php api.php [L,QSA]
+
+ErrorDocument 404 /404.html
+

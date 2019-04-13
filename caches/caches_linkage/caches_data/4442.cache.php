@@ -1,0 +1,85 @@
+<?php
+return array (
+  'title' => '房屋性质',
+  'style' => '0',
+  'siteid' => '0',
+  'data' => 
+  array (
+    4443 => 
+    array (
+      'linkageid' => '4443',
+      'name' => '直管公房',
+      'style' => '',
+      'parentid' => '0',
+      'child' => '0',
+      'arrchildid' => '',
+      'keyid' => '4442',
+      'listorder' => '0',
+      'description' => '',
+      'setting' => NULL,
+      'siteid' => '0',
+      'typecode' => '',
+    ),
+    4444 => 
+    array (
+      'linkageid' => '4444',
+      'name' => '单位公房',
+      'style' => '',
+      'parentid' => '0',
+      'child' => '0',
+      'arrchildid' => '',
+      'keyid' => '4442',
+      'listorder' => '0',
+      'description' => '',
+      'setting' => NULL,
+      'siteid' => '0',
+      'typecode' => '',
+    ),
+    4445 => 
+    array (
+      'linkageid' => '4445',
+      'name' => '申请家庭成员自有私房（含自建房）',
+      'style' => '',
+      'parentid' => '0',
+      'child' => '0',
+      'arrchildid' => '',
+      'keyid' => '4442',
+      'listorder' => '0',
+      'description' => '',
+      'setting' => NULL,
+      'siteid' => '0',
+      'typecode' => '',
+    ),
+    4446 => 
+    array (
+      'linkageid' => '4446',
+      'name' => '市场租住房',
+      'style' => '',
+      'parentid' => '0',
+      'child' => '0',
+      'arrchildid' => '',
+      'keyid' => '4442',
+      'listorder' => '0',
+      'description' => '',
+      'setting' => NULL,
+      'siteid' => '0',
+      'typecode' => '',
+    ),
+    4447 => 
+    array (
+      'linkageid' => '4447',
+      'name' => '其他',
+      'style' => '',
+      'parentid' => '0',
+      'child' => '0',
+      'arrchildid' => '',
+      'keyid' => '4442',
+      'listorder' => '0',
+      'description' => '',
+      'setting' => NULL,
+      'siteid' => '0',
+      'typecode' => '',
+    ),
+  ),
+);
+?>

@@ -1,0 +1,290 @@
+﻿
+.loginbox {
+    width: 490px;
+    height: 480px;
+    background: rgba(82, 109, 82, 0.2);
+    margin: 50px auto 0px auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.loginbox .login_nav {
+    display: block;
+}
+
+.loginbox .login_nav a {
+    display: block;
+    float: left;
+    width: 49.5%;
+    height: 48px;
+    line-height: 48px;
+    background: #f4f4f4;
+    border-right: 1px solid #eaeaea;
+    color: #939393;
+    text-align: center;
+    font-size: 16px;
+}
+
+.loginbox .login_nav a.select {
+    height: 44px;
+    line-height: 44px;
+    border-right: 0;
+    border-top: 4px solid #4079ce;
+    color: #4079ce;
+    background: #FFF;
+}
+
+.loginbox .loginwrap {
+    height: 260px;
+}
+
+.loginbox .l_contain {
+    padding: 15px 20px 0;
+}
+
+.loginbox .l_contain .inputbox {
+    border: 1px solid #000;
+    height: 44px;
+    border: 1px solid #e4e4e4;
+}
+
+.loginbox .l_contain .inputbox .name {
+    display: block;
+    float: left;
+    width: 62px;
+    line-height: 38px;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+}
+
+.loginbox .l_contain .inputbox input {
+    display: block;
+    float: left;
++ float : none;
+    float: none \0;
+    float: none \9
+    \0;
+    padding-left: 14px;
+    width: 209px;
+    height: 38px;
+    line-height: 38px;
+    background: none;
+    font-size: 14px;
+    border: none;
+}
+
+.loginbox .l_contain .inputbox2 .name {
+    width: 85px;
+}
+
+.loginbox .l_contain .inputbox2 input {
+    width: 180px;
+}
+
+.loginbox .l_contain .inputbox3, .loginbox .l_contain .inputbox4 {
+    width: 180px;
+}
+
+.loginbox .l_contain .inputbox3 .name {
+    width: 85px;
+}
+
+.loginbox .l_contain .inputbox3 input {
+    width: 80px;
+}
+
+.loginbox .l_contain .inputbox4 .name {
+    width: 65px;
+}
+
+.loginbox .l_contain .inputbox4 input {
+    width: 90px;
+}
+
+.loginbox .l_contain .label_title {
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    color: #d1d1d1;
+    padding: 2px 5px;
+}
+
+.loginbox .l_contain .btnbox {
+    margin: 15px 0;
+}
+
+.loginbox .l_contain .btn_getValidcode {
+    display: block;
+    border: 1px solid #ccc;
+    height: 44px;
+    width: 72px;
+}
+
+.loginbox .l_contain .btn_getValidcode img {
+    border: none;
+    width: 72px;
+    height: 44px;
+}
+
+.loginbox .l_contain .btnbox .btn_login {
+    display: block;
+    border: none;
+    float: left;
+    margin: 0 20px 0 15px;
+    _margin: 0 20px 0 10px;
+    width: 118px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+    background: #f47036;
+}
+
+.loginbox .l_contain .btnbox .btn_register {
+    display: block;
+    float: left;
+    width: 116px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.loginbox .l_contain .btn_getcode {
+    display: block;
+    border: none;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.loginbox .l_ysy {
+    padding: 15px 20px;
+    background: #f9f9f9;
+    border-top: 1px solid #dedede;
+}
+
+.loginbox .l_ysy span {
+    vertical-align: middle;
+}
+
+.loginbox .l_ysy span input {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* ----------- login ------------- */
+
+body {
+    background-image: url(../../image/bg-login.jpg);
+    overflow: hidden;
+}
+
+.loginbox {
+    background: none;
+    background-image: url(../../image/btn-hover.png);
+
+}
+
+.l_contain {
+    width: 400px;
+}
+
+#logo {
+    background-image: url(../../image/logo.png);
+    width: 410px;
+    height: 50px;
+    margin: 30px auto 30px auto;
+    display: block;
+}
+
+.loginwrap {
+    /*border-top:1px solid rgba(255,255,255,0.15);*/
+    color: gray
+}
+
+.l_contain {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.loginbox .l_contain .inputbox {
+    background-color: #f2f2f4;
+}
+
+.loginbox .l_contain .inputbox .name {
+    height: 28px;
+    background-color: transparent;
+    margin-top: 8px;
+    border-right: 1px solid #d0d0d8;
+}
+
+.loginbox .login {
+    height: 50px;
+    margin-top: 30px;
+}
+
+.loginbox .login button {
+    height: 50px;
+    width: 400px;
+    background-color: #71a8f3;
+    border: none;
+    font-size: 18px;
+}
+
+.loginbox .login a {
+    height: 50px;
+    padding-top: 10px;
+}
+
+.loginbox .s-btn {
+    font-size: 18px;
+}
+
+.loginbox .fr {
+    float: right;
+}
+
+.loginbox .inputbox4 {
+    float: left;
+}
+
+.loginbox .l_contain .label_title.error {
+    color: red;
+}
+
+input[type="password"], input[type="text"] {
+    color: rgb(103, 129, 115);
+}
+
+input[type="password"]:hover, input[type="text"]:hover {
+    color: rgb(103, 129, 115);
+}
+
+input[type="password"]:focus, input[type="text"]:focus {
+    color: rgb(103, 129, 115);
+}
+
+.loginbox .fr {
+    float: left;
+    margin-left: 50px;
+}
+
+.line {
+    background-image: url(../../image/white-transp.png);
+    height: 1px;
+}
+
+.login button {
+    color: #fff;
+}
+.remember_me_div{
+    color:white;padding: 5px;height: 10px;
+}
+:focus {
+    outline: 0;
+}

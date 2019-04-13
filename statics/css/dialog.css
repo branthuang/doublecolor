@@ -1,0 +1,104 @@
+﻿@charset "utf-8";
+/*
+ * artDialog skin
+ * http://code.google.com/p/artdialog/
+ * (c) 2009-2010 TangBin, http://www.planeArt.cn
+ *
+ * This is licensed under the GNU LGPL, version 2.1 or later.
+ * For details, see: http://creativecommons.org/licenses/LGPL/2.1/
+ */
+.aui_close {
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    outline: none;
+    _cursor: pointer;
+}
+
+.aui_close:hover {
+    text-decoration: none;
+}
+
+.aui_close {
+    padding: 0;
+    top: 10px;
+    right: 20px;
+    width: 21px;
+    height: 21px;
+    line-height: 21px;
+    font-size: 18px;
+    color: #ccc;
+    text-align: center;
+    font-family: Helvetica, STHeiti;
+    _font-family: '\u9ed1\u4f53', 'Book Antiqua', Palatino;
+    text-shadow: 0 1px 0 rgba(18, 91, 167, .9);
+}
+
+.aui_close:hover {
+    color: #fff;
+}
+
+.aui_close:active {
+    box-shadow: none;
+}
+
+.aui_dialog {
+    background: #f7f8f8;
+}
+
+.aui_content {
+    color: #333;
+}
+
+.aui_buttons_bg {
+    background-image: url(../assets/images/bg.jpg);
+}
+
+.aui_content a {
+    color: #333;
+}
+
+.aui_title {
+    padding: 13px;
+    font-size: 16px;
+    color: #fff;
+    background: #7da1d7;
+}
+
+.aui_close {
+    font-size: 20px;
+}
+
+.aui_titleBar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.aui_buttons {
+    text-align: right;
+    border-top: 1px solid #dfe0e0;
+    padding-top: 10px;
+}
+
+.aui_buttons button {
+    border: none;
+    padding: 6px 12px;
+    background: #e4e6e6;
+    color: #444545;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+button.aui_state_highlight {
+    background: #739fdc;
+    color: #fff;
+}
+
+button.aui_state_highlight:focus {
+    border: none;
+}
+
+.aui_buttons {
+    margin-bottom: 6px;
+}
